@@ -1,6 +1,6 @@
 Sorting techniques -
-</br>
-insertion sort-
+</br> 
+<h2>insertion sort-</h2>
 </br>
 in this the given array is dividet into to sub list one is soted array and another one is unsorted array unsorted array is noting but the given string and sorted array is intialy empty we select one variable from the 
 unsorted array and place that array into sorted array at there upropriate place.
@@ -48,4 +48,25 @@ Ex-
 
   time complexit = o(n square) but if the array is sorted form then time compleit = o(n)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2>selection sort -</h2>
+<br>
+* the selection sort is same as insertion sort in the give array we make to sub list [sortedlist] [unsortedlist]
+</br>
+but the only difference is we asume that the sorted list is empty and know we  comapre 1st smallest elemnet in the unsorted array with the 1st [ i,e n[0]] element in the unsorted list  and swap that element</br>
+EX - n = 4 8 1 10 7
+
+</br>
+         sorted  |  unsorted
+         </br>
+pass 1=        1 | 8 4 10 7 </br>      ->  here 1st elen 4 is swap in smallest elen that is 1 so now 1 in sorted list</br>
+
+pass 2 =       1 4 | 8 10 7  </br>
+
+pass 3  =      1 4 7 | 8 10  </br>
+
+pass 4 =      1 4 7 8 | 10 <br>
+
+note - here is 5 element and number of pass are 4 because we sorted 4 elemenr then abuvasly 5th element at it correct position only 
 

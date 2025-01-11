@@ -46,4 +46,6 @@ Ex-
 
     sorted array is = 2 4 5 6 10
 
+  time complexit = o(n square) but if the array is sorted form then time compleit = o(n)
+
 

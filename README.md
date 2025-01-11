@@ -46,7 +46,7 @@ Ex-
 
     sorted array is = 2 4 5 6 10
 
-  time complexit = o(n square) (warst case) but if the array is sorted form (i.e aasending order)then time compleit = o(n)(best case)
+  time complexit = o(n square) (worst case) but if the array is sorted form (i.e aasending order)then time compleit = o(n)(best case)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2>selection sort -</h2>
@@ -68,5 +68,5 @@ pass 3  =      1 4 7 | 8 10  </br>
 pass 4 =      1 4 7 8 | 10 <br>
 
 note - here is 5 element and number of pass are 4 because we sorted 4 elemenr then abuvasly 5th element at it correct position only 
- time complexit in both case(warst/best is)  = o(n square)
+ time complexit in both case(worst/best is)  = o(n square)
 

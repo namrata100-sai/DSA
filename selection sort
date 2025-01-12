@@ -1,0 +1,40 @@
+
+#include <stdio.h>
+
+int main() {
+    int n,i,j,a[20],temp  ;
+  
+    printf("Entre the how many elements");
+    scanf("%d",&n);
+    
+    printf("Enter the elements ");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    // this for loop for passes so if we enter 5 element then the passes would be 4 because if we sort 4 elemen t then the 5th element is at appropriate place  here 1st pass value is 0 
+    for(i=0;i<n-1;i++)
+    {
+       int  min=i;
+       for(j=i+1;j<n;j++)
+       {
+           if(a[j]<a[min])
+           {
+               min=j;
+           }
+       }
+          if (min !=i)
+          {
+              int swap = a[i];
+              a[i] = a[min];
+              a[min] = swap;
+          }
+    }
+    printf("sorted data is\n");
+    for(i=0;i<n;i++)
+    {
+        printf("\n%d",a[i]);
+    }
+
+    return 0;
+}

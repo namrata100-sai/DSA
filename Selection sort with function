@@ -1,0 +1,44 @@
+#include<stdio.h>
+void main()
+{
+    int a[20],i,j,n;
+    
+  void  swap( int b ,int c)  // we can use same parameter also i.e int i , int min //
+    {
+        int temp = a[b];
+             a[b] = a[c];
+             a[c] = temp;
+    }
+    printf("Entre the  how elements ");
+    scanf("%d",&n);
+    
+    printf("Enter the elements");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    
+    for(i=0;i<n-1;i++)
+    {
+       int  min =i;
+        for(j=i+1;j<n;j++)
+        {
+            if(a[j]<a[min])
+            {
+                min = j;
+            }
+        }
+        if(min!=i)
+        {
+            swap(i,min);
+        }
+        
+    }
+    printf("Sorted element is\n ");
+    for(i=0;i<n;i++)
+    {
+       printf("\n%d",a[i]);  
+    }
+   
+    
+}

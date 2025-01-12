@@ -70,3 +70,8 @@ pass 4 =      1 4 7 8 | 10 <br>
 note - here is 5 element and number of pass are 4 because we sorted 4 elemenr then abuvasly 5th element at it correct position only 
  time complexit in both case(worst/best is)  = o(n square)
 
+<h1>Code</h1>
+* while writing the code we consider 1st element is minimum element   - so here i=0   min = i
+* and then we compare that element with all the elements    and here j =i+1
+* if j value a[j] is less then i value a[i] then min value is a[j]
+

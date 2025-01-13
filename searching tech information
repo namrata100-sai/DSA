@@ -1,0 +1,5 @@
+
+
+<h1> Linear Search</h1>
+
+Linear Search is a simple search algorithm that checks each element of a list sequentially until the target value is found or the end of the list is reached.

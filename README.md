@@ -74,4 +74,25 @@ note - here is 5 element and number of pass are 4 because we sorted 4 elemenr th
 * while writing the code we consider 1st element is minimum element   - so here i=0   min = i
 * and then we compare that element with all the elements    and here j =i+1
 * if j value a[j] is less then i value a[i] then min value is a[j]
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------</br>
+<h1>quick sort</h1></br>
+=> here quick sort is work on divide and conquer methed
+</br>
+means array is divided in to to sub arrays and that  we called  partition (imp this nothink but backboen og quick sort)  
+</br>
+in the given element we consider one element is pivot element (pivot can any element )
+</br>
+how partition happens
+</br>
+all the less element would be take to the left side of pivot element 
+</br>
+and all the greter element is shifted to the right side of pivot element (like this partition we be happen in quick sort)
+</br>   if is there element is equal to the pivot element that can be go either way (that side or this side)
+</br>
+ex =>  partition1  ||  pivot || partition2
+          <            pivot       >
+          </br>
+          now look we transfer less element to left and greter  element to right but there is not in sorted order
+          </br>
+          so we have to do agian partition in both the side partition 1 and paryition 2 to get a sorted list ( so thats why we called it as backbone of qs because there is lots of partitions ) 
+ 

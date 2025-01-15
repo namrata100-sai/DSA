@@ -94,5 +94,34 @@ ex =>  partition1  ||  pivot || partition2
           </br>
           now look we transfer less element to left and greter  element to right but there is not in sorted order
           </br>
-          so we have to do agian partition in both the side partition 1 and paryition 2 to get a sorted list ( so thats why we called it as backbone of qs because there is lots of partitions ) 
- 
+          so we have to do agian partition in both the side partition 1 and paryition 2 to get a sorted list ( so thats why we called it as backbone of qs because there is lots of partitions )
+          </br>
+ex =>   <h1>array = 7 4 8 10 5 2 4 7 /h1> 
+          </br>   here les take 7 as a pivot  so pivot =7  now we have to take to variable start and stop start is at the bigging of the array means array[o]   and end is at the last of an array means                array[7] </br>
+  set = 1  </br>
+         like this   
+          start                       end 
+            7    4   8   10  5  2  4  7    </br>  ==> now we chick her is start < = pivot if yes then increament will happen   || is end > piot if yes then decreament happen  </br>
+                       start                  end
+            7    4     8    10   5   2    4   7    => when the condition is false we swap start value and end value </br>
+                           swap start and end value
+            7     4    7    10   5   2    4    8     </br>
+                            start         end         </br>
+            7     4    7     10   5  2    4    8      </br> 
+                              swap                    </br>
+            7      4     7    4   5   2    10  8       </br>
+                                      end  start
+            7     4     7     4    5   2    10   8   </br>
+                   when the start crosess the end   now is swap end value with pivot value  </br>
+            2     4     7    4     5   7     10  8   
+            <br>
+            <h1> imp - now here check we  place all the less element left of the pivot variable and all greter element right to the pivot variable</h1>
+            </br>
+  set =2      now we got </br>
+              partition 1    ||    pivot  ||    partition 2  </br>  
+              2  4    7  4  5        7           10    8     =>  now we have do same think in partition1 nad partition 2  untill we not get sorted list </br>
+              2   4    7   4  5     pivot =2   start <= pivot  and end > pivot </br>
+            start              end 
+            2      4    7   4  5
+            end    start
+            2      4     7   4  5

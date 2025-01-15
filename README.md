@@ -119,9 +119,5 @@ ex =>   <h1>array = 7 4 8 10 5 2 4 7 </h1>
             </br>
   set =2      now we got </br>
               partition 1    ||    pivot  ||    partition 2  </br>  
-              2  4    7  4  5        7           10    8     =>  now we have do same think in partition1 nad partition 2  untill we not get sorted list </br>
-              2   4    7   4  5     pivot =2   start <= pivot  and end > pivot </br>
-            start              end 
-            2      4    7   4  5
-            end    start
-            2      4     7   4  5
+              2  4    7  4  5        7           10    8     =>  now we have to do same think in partition1 nad partition 2  untill we not get sorted list </br>
+             

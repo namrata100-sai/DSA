@@ -96,7 +96,7 @@ ex =>  partition1  ||  pivot || partition2
           </br>
           so we have to do agian partition in both the side partition 1 and paryition 2 to get a sorted list ( so thats why we called it as backbone of qs because there is lots of partitions )
           </br>
-ex =>   <h1>array = 7 4 8 10 5 2 4 7 /h1> 
+ex =>   <h1>array = 7 4 8 10 5 2 4 7 </h1> 
           </br>   here les take 7 as a pivot  so pivot =7  now we have to take to variable start and stop start is at the bigging of the array means array[o]   and end is at the last of an array means                array[7] </br>
   set = 1  </br>
          like this   
